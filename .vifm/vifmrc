@@ -1,0 +1,7 @@
+noremap <f5> :copy<space>
+noremap <f6> :move<space>
+noremap <f7> :mkdir<space>
+noremap <f8> :delete<CR>
+noremap o :cd %d %c<CR>
+noremap O :cd %d %d<CR>
+noremap <c-x> :!bash<CR>
