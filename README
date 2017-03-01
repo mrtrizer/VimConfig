@@ -1,0 +1,6 @@
+Example of usage:
+Add next to your .bashrc
+
+alias vim='vim -u ~/Hobby/VimConfig/.vim/.vimrc'
+alias ranger='ranger -r ~/Hobby/VimConfig/ranger/config'
+source ~/Hobby/VimConfig/.bashrc
