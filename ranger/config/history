@@ -1,4 +1,0 @@
-search Vi
-
-map <C-o> shell bash
-search Vim
