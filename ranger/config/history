@@ -1,0 +1,31 @@
+search Pic
+search Vim
+touch .gitignore
+shell nvim
+shell echo 
+shell 
+echo %s
+shell echo %s
+shell -w echo %s
+shell find %s -type f -exec chmod 644 {} \;
+shell find %s -type d -exec chmod 755 {} \;
+find Flap
+find proj
+find Hod
+find hob
+find vim
+find ra
+find con
+find Doc
+find .con
+find .t
+rename Crash Reports
+search .Trash
+shell nvim %s
+q
+find test
+open_with vim
+shell mv -t /home/${USER}/.local/shared/Trash/files %s
+
+delete
+touch test
