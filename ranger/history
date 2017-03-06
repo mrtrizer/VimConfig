@@ -1,0 +1,50 @@
+find nv
+touch init.vim
+search Ho
+delete
+find .con
+search 
+shell -w echo $EDITOR
+find Hob
+search ran
+search ranger
+cd /etc/ranger
+find config
+shell ./%s
+find robospi2
+find .configl
+find hobb
+find usr
+find lib
+find gnome-setting
+open_with nvim
+cd  /
+find ext
+find etc
+find xdr
+find robospi
+find .conf
+find robosp2
+find .config
+find hob
+find flaen
+find je
+find nvim
+find Down
+find tango
+find vy
+cd 
+find ho
+find flape
+shell nvim
+q
+find .confi
+find ran
+cd /
+find applica
+find vim
+find down
+find 
+
+find Hobb
+find vimcon
