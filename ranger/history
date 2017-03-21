@@ -1,14 +1,3 @@
-find nv
-touch init.vim
-search Ho
-delete
-find .con
-search 
-shell -w echo $EDITOR
-find Hob
-search ran
-search ranger
-cd /etc/ranger
 find config
 shell ./%s
 find robospi2
@@ -34,17 +23,28 @@ find Down
 find tango
 find vy
 cd 
-find ho
 find flape
 shell nvim
-q
 find .confi
 find ran
 cd /
 find applica
 find vim
 find down
-find 
-
-find Hobb
 find vimcon
+find Hobb
+find bashrc
+find ho
+shell git reset --hard
+shell git submodules update --init
+cd /opt
+q
+
+find .bashrc
+find 
+find op
+find java
+open_with 
+cd /etc
+find xdg
+find gnomesettj
