@@ -41,7 +41,3 @@ tmap <S-Tab> <C-q>,w
 " Commentary style
 :setlocal commentstring=//\ %s
 
-" Plugins
-Plug 'Valloric/YouCompleteMe'
-Plug 'critiqjo/lldb.nvim'
-Plug 'kassio/neoterm'
