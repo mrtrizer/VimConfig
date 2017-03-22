@@ -1,50 +1,50 @@
-find nv
-touch init.vim
-search Ho
-delete
-find .con
+search protoc
+rename 
+rename protoc
+cd
+set_search_methodh
+search .config
+search Del
+shell vim
+search D
+git clone 
+shell git clone git@github.com:mrtrizer/VimConfig.git
+search Vi
+find candrain
+rename .vim_
+rename .vifm_
+rename ranger_
+version
 search 
-shell -w echo $EDITOR
-find Hob
-search ran
-search ranger
-cd /etc/ranger
-find config
+shell git pull
+search pro
+find pr
 shell ./%s
-find robospi2
-find .configl
-find hobb
-find usr
-find lib
-find gnome-setting
-open_with nvim
-cd  /
-find ext
-find etc
-find xdr
-find robospi
-find .conf
-find robosp2
-find .config
-find hob
-find flaen
-find je
-find nvim
-find Down
-find tango
-find vy
-cd 
-find ho
-find flape
-shell nvim
-q
+shell 
+delete
+shell bash
 find .confi
-find ran
-cd /
-find applica
-find vim
-find down
-find 
+q
+find desk
+find
+shell chmod +x %s
+find .vim
+find .config
+find dow
+find clangj
+find pro
+find can
+find bashrc
+find exm
+find projec
+find cand
+find ios
+find Pict
+find profi
+find .profile
+nvr .profile
+nvr
+shell nvr .profile
+find proje
 
-find Hobb
-find vimcon
+shell :q!
