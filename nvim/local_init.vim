@@ -35,8 +35,6 @@ nmap ,H :sf %:t:r.h<CR>
 
 " Switch between ranger and editor
 nnoremap <C-o> :buffer 1<CR>i
-nmap <S-Tab> ,w
-tmap <S-Tab> <C-q>,w
 
 " Fast move
 nmap <C-j> 10j
@@ -75,3 +73,7 @@ autocmd BufEnter * :call OnSwitchWindow()
 " Commentary style
 :setlocal commentstring=//\ %s
 :set smartcase
+:nmap <C-l> :bnext<Return>
+:tmap <C-l> <C-q>:bnext<Return>
+:nmap <C-h> :bprev<Return>
+:tmap <C-h> <C-q>:bprev<Return>
