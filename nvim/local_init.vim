@@ -75,3 +75,10 @@ autocmd BufEnter * :call OnSwitchWindow()
 " Commentary style
 :setlocal commentstring=//\ %s
 :set smartcase
+
+nmap H 0
+nmap L $
+nmap <C-h> :bprev<CR>
+nmap <C-l> :bnext<CR>
+tmap <C-h> <C-q>:bprev<CR>
+tmap <C-l> <C-q>:bnext<CR>
