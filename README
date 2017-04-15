@@ -1,9 +1,14 @@
 Example of usage:
 Add next to your .bashrc
 
-source ~/Hobby/VimConfig/.bashrc
+source <path to repo>/.bashrc
 
-Then create symbolic links to 
+Then create symbolic links to
 ~/.vim -> ///.vim
 ~/.vimrc -> ///.vim/.vimrc
 ~/.config/ranger -> ///ranger
+
+Install nvr to open files from ranger in new tabs
+
+Run:
+nvim -c "terminal ranger"
