@@ -1,9 +1,18 @@
 Example of usage:
 Add next to your .bashrc
 
-source ~/Hobby/VimConfig/.bashrc
+source <path to repo>/.bashrc
 
-Then create symbolic links to 
+Then create symbolic links to
 ~/.vim -> ///.vim
 ~/.vimrc -> ///.vim/.vimrc
 ~/.config/ranger -> ///ranger
+
+Install nvr to open files from ranger in new tabs
+
+Run:
+nvim -c "terminal ranger"
+
+Known issue:
+Ctrl+O doestn't work in ranger and bash under OSX in both iTerm2 and Terminal. 
+This shortcut works in VimR only if you open ranger from nvim nested terminal.
