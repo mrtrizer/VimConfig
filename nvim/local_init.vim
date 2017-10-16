@@ -42,27 +42,6 @@ tmap <S-Tab> <C-q>,w
 nmap <C-j> 10j
 nmap <C-k> 10k
 
-function! ConfirmQuit(writeFile)
-    if (a:writeFile)
-        if (expand('%:t')=="")
-            echo "Can't save a file with no name."
-            return
-        endif
-        :write
-    endif
-
-    if (winnr('$')==1 && tabpagenr('$')==1)
-        if (confirm("Do you really want to quit?", "&Yes\n&No", 2)==1)
-            :quit
-        endif
-    else
-        :quit
-    endif
-endfu
-
-cnoremap <silent> q<CR>  :call ConfirmQuit(0)<CR>
-cnoremap <silent> x<CR>  :call ConfirmQuit(1)<CR>
-
 function! OnSwitchWindow()
     if &buftype ==# 'terminal'
         startinsert
