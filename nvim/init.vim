@@ -66,7 +66,7 @@ endif
 Plug 'honza/vim-snippets'
 
 "" Color
-Plug 'tomasr/molokai'
+"Plug 'tomasr/molokai'
 
 "*****************************************************************************
 "" Custom bundles
@@ -156,7 +156,7 @@ set number
 
 let no_buffers_menu=1
 if !exists('g:not_finish_vimplug')
-  colorscheme molokai
+  "colorscheme molokai
 endif
 
 set mousemodel=popup
