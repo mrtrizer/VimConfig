@@ -56,3 +56,4 @@ autocmd BufEnter * :call OnSwitchWindow()
 :tmap <C-l> <C-q>:bnext<Return>
 :nmap <C-h> :bprev<Return>
 :tmap <C-h> <C-q>:bprev<Return>
+
